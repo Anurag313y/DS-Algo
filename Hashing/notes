@@ -1,0 +1,8 @@
+STL -Hashing 
+1)  hashing cab be done by 2 data structure -
+                        1) Map                2) Unordered_map
+insertion               O(log N)              O(1)
+Access                  O(log N)              O(1)
+deletion                o(log N)              O(N)
+internal-            Red-Black-Tree      Hash-Table(array of bucket)
+implementation
