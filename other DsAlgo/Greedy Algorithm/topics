@@ -1,0 +1,27 @@
+
+##########Greedy algorithm(practice from GFG)#######################
+
+
+1.indian coin problem-
+ sort in descending order , and try to take as much u can of any type
+
+2.Activity selection problem - sort in increasing finish time,,,then take those whose start time is 
+greater than or equal to previous.
+
+3. Fractional Knapsack greedy algorithm - (approach) value/weight {value of item and its
+ weight is given, you are thief}
+
+4. Optimal pattern Merge greedy algorithm- Given N files with their computation time in array
+you have to pick 2 files and add them do this until you get single file in array,,,
+we need to reduce computation time(to solve use minheap)
+Approach - take two smallest element and add them and then push its sum to minheap
+
+
+5.Expedi greedy algorithm-( Problem) cow are driving truck,,,,fuel loss = 1L/km...
+given - distance of fuel station from current position,,, and max fuel it can provide
+also truck fuel tank capacity= infinite... distance of city from current position =L
+(approach) = sort distance of fuel station from current pos in ascending order
+then if tank =empty take fule else push to maxHeap 
+
+
+6.max and min difference greedy algorithm- no need to do 

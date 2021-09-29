@@ -1,0 +1,30 @@
+Ordered set-
+1. contains unique element
+2. implemented using BST
+3. elements are in sorted order
+4. random access not possible
+#include<set>
+
+Multiset 
+1. can contain duplicates
+2. implemented using  balanced BST
+3. elements are in sorted order
+ 4. random access not possible
+ #include<set>
+
+Time complexity of set and multiset-
+insertion = O(log n)
+deletion = O(log n)
+lower/upper_bound = O(log n)
+
+Unordered set 
+1. contains unique element
+2. implemented using Hashing
+3. elements are not in sorted order
+4. random access not possible
+#include<unordered_set>
+
+Time complexity of unordered_set -
+insertion = O(n) in worst case and O(1) in avg case
+deletion =  O(n) in worst case and O(1) in avg case
+lower/upper_bound = NA
