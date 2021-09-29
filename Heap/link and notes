@@ -1,0 +1,16 @@
+1) build a heap algorithm youtube video(ctrl + click link)
+https://youtu.be/VkKmmwzfIG4 
+
+
+Notes - 
+1)HEAP-STL
+MAXHEAP -  priority-queue<int, vector<int>>
+          ///priority-queue<int, container >
+
+          MINHEAP -  priority-queue<int, vector<int>,greater<int>>
+          ///priority-queue<int, container >
+Time of max and min heap-------
+push = O(log N)
+pop =  O(log N)
+top = o(1)
+size = O(1)
