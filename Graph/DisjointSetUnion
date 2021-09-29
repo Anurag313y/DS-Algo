@@ -1,0 +1,8 @@
+////// Disjoint Set Union(DSU)
+ // nieve implementation - O(log N)
+ // Union by (SIZE/RANK) - O(alfa(N)) = O(1)  , alfa= inverce acarman function very small number
+ //Union by (SIZE/RANK) - solve the problem of long chain
+
+ //application - 1.MST 
+//  2. CONNECTED COMPONENT I NGRAPH
+//3. CYCLE DETECTION AND MANY MORE
