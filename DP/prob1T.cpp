@@ -1,0 +1,24 @@
+////Nth Fibonacci Number(Tabulation)
+///*****************************************************************************//
+
+
+#include<bits/stdc++.h>
+using namespace std;
+//////Tabulation for DP(Bottom -Up approach)
+
+int main()
+{
+    int n;cin>>n;
+  vector<int> dp(n+1);
+
+  //same like base condition in recursion
+  dp[0] = 0;
+  dp[1] = 0;
+  dp[2] = 1;
+
+  for(int i=3;i<=n;i++){
+      dp[i] = dp[i-1] + dp[i-2];
+  }
+  cout<<dp[n];
+  return 0;
+}
