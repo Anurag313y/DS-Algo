@@ -1,0 +1,3 @@
+Tries(prefix tree)----Tri data structure ----> dictionary example
+ex. find word =  "adam"
+--->a---->ad----->ada--->adam
